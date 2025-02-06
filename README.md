@@ -1,1 +1,104 @@
-# Myzone
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with Me</title>
+    <style>
+        /* Set the dark blue background color */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #1e3a5f; /* Dark blue background color */
+            font-family: 'Arial', sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 50px;
+            color: white;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            text-transform: uppercase;
+            font-weight: 500;
+            background-color: rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .facebook {
+            background: linear-gradient(45deg, #3b5998, #8b9dc3);
+        }
+
+        .tiktok {
+            background: linear-gradient(45deg, #010101, #00f2ea);
+        }
+
+        .gmail {
+            background: linear-gradient(45deg, #d93025, #fbbc05);
+        }
+
+        .button:hover {
+            transform: translateY(-5px);
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        /* Make sure everything looks good on smaller screens */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+            }
+            .social-links {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Follow Me & Contact Me!</h1>
+    <div class="social-links">
+        <!-- Facebook Link -->
+        <a href="https://web.facebook.com/kyle.chavez.bonita" target="_blank" class="button facebook">
+            Facebook
+        </a>
+
+        <!-- TikTok Link -->
+        <a href="https://www.tiktok.com/@YourUsername" target="_blank" class="button tiktok">
+            TikTok
+        </a>
+
+        <!-- Gmail Link -->
+        <a href="mailto:zoooone032728@gmail.com" class="button gmail">
+            Email Me
+        </a>
+    </div>
+</body>
+</html>
+
